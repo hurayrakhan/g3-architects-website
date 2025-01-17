@@ -6,6 +6,7 @@
   font-weight: 400;
   font-style: normal;
 }
+
 /* shared style */
 .flex{
     display: flex;
@@ -24,21 +25,45 @@
 /* nav styles */
 .navbar{
     justify-content: space-between;
-    width: 80%;
-    margin: 0px auto;
     align-items: center;
 }
-.brand{
 
-}
 .menu{
     list-style: none;
     gap: 30px;
 
 }
-.menu-item{
+
+.item-link{
+    text-decoration: none;
+
+}
+/* banner styles */
+.navbar, .banner{
+    max-width: 80%;
+    margin: 0px auto;
+}
+
+.banner-content{
+    text-align: center;
+    margin-bottom: 50px;
     
 }
-.menu-link{
-    list-style: none;
+.banner-title{
+
+}
+.banner-description{
+
+}
+.banner-btn{
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    padding: 20px 25px;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+.banner-img{
+    width: 100%;
+    margin: 0px auto;
+  
 }
