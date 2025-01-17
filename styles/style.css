@@ -14,6 +14,9 @@
 .bg-secondary{
     background: rgba(255, 144, 14, 0.1);
 }
+.bg-text{
+    color: rgb(255, 144, 14);
+}
 .dark-1{
     color: rgb(19, 19, 19);
 }
@@ -21,6 +24,21 @@
 .dark-2{
     color: rgb(66, 66, 66)
 }
+.dark-3{
+    color: rgb(114, 114, 114);
+}
+
+
+.btn-primary{
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    padding: 20px 25px;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
 
 /* nav styles */
 .navbar{
@@ -47,7 +65,7 @@
 .banner-content{
     text-align: center;
     margin-bottom: 50px;
-    
+
 }
 .banner-title{
 
@@ -55,15 +73,26 @@
 .banner-description{
 
 }
-.banner-btn{
-    border-radius: 8px;
-    background: rgb(255, 144, 14);
-    padding: 20px 25px;
-    color: rgb(255, 255, 255);
-    border: none;
-}
 .banner-img{
     width: 100%;
     margin: 0px auto;
   
+}
+
+
+
+/* main styles */
+
+.section-1{
+    align-items: center;
+    gap: 60px; 
+    max-width: 80%;
+    margin: 130px auto 0px auto;
+
+}
+.team-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+
 }
